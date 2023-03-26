@@ -17,9 +17,12 @@ This repository contains the code for an Angular e-commerce web app with a shopp
 
 - Shopping cart with quantity updates and removal
 
+![Screenshot 2023-03-26 131145](https://user-images.githubusercontent.com/40800366/227776635-a731e34a-ad07-4214-98d0-cf220e4cffbf.png)
+
 - Checkout form with validation and real-time shipping rates
 
-![Screenshot 2023-03-26 131145](https://user-images.githubusercontent.com/40800366/227776635-a731e34a-ad07-4214-98d0-cf220e4cffbf.png)
+![Screenshot 2023-03-26 131318](https://user-images.githubusercontent.com/40800366/227776972-15fbc913-1c70-4433-b7dc-a2484162e8b7.png)
+
 
 - Payment processing with Stripe integration
 
