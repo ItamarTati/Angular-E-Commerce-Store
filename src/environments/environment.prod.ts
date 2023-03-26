@@ -1,13 +1,8 @@
-require('dotenv').config();
-const stripeKey = process.env["STRIPE_KEY"];
-const clientId = process.env["CLIENT_ID"];
-const domain = process.env["Domain"];
-
 export const environment = {
-  production: false,
-  stripeKey: stripeKey,
+  production: true,
+  stripeKey: process.env["STRIPE_KEY"],
   auth: {
-    clientId: clientId,
-    domain: domain
+    clientId: process.env["CLIENT_ID"],
+    domain: process.env["DOMAIN"]
   }
 };

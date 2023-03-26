@@ -1,20 +1,15 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-require('dotenv').config();
-const stripeKey = process.env["STRIPE_KEY"];
-const clientId = process.env["CLIENT_ID"];
-const domain = process.env["Domain"];
 
 export const environment = {
-  production: false,
-  stripeKey: stripeKey,
+  production: true,
+  stripeKey: process.env["STRIPE_KEY"],
   auth: {
-    clientId: clientId,
-    domain: domain
+    clientId: process.env["CLIENT_ID"],
+    domain: process.env["DOMAIN"]
   }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
